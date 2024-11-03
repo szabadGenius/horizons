@@ -13,14 +13,17 @@ function App() {
           <Router>
               <div className="flex h-screen bg-background">
                   <header className="border-r">
-                      <div className="max-w-7xl mx-auto px-4 flex justify-between items-center h-16">
+                      <div className="max-w-7xl mx-auto px-4 flex flex-col justify-between items-center h-16">
+                          <div className="w-full flex justify-center">
+                              <ThemeToggle />
+                          </div>
                           <NavigationMenu>
                               <NavigationMenuList>
-                                  {/* <NavigationMenuItem>
-                                <Link to="/">
-                                  <Button variant="ghost">Home</Button>
-                                </Link>
-                              </NavigationMenuItem> */}
+                                  <NavigationMenuItem>
+                                      <Link to="/">
+                                          <Button variant="ghost">Home</Button>
+                                      </Link>
+                                  </NavigationMenuItem>
                                   <NavigationMenuItem>
                                       <Link to="/todos">
                                           <Button variant="ghost">Todos</Button>
@@ -28,17 +31,9 @@ function App() {
                                   </NavigationMenuItem>
                               </NavigationMenuList>
                           </NavigationMenu>
-                          <ThemeToggle />
                       </div>
                   </header>
 
-                  {/* <main className="max-w-7xl mx-auto px-4 py-6">
-                      <Routes>
-                          <Route path="/" element={<Home />} />
-                          <Route path="/todos" element={<ToDoList />} />
-                          <Route path="*" element={<div>404 Not Found</div>} />
-                      </Routes>
-                  </main> */}
                   {/* Content Area */}
                   <main className="flex-1 p-6 overflow-auto">
                       <Routes>
