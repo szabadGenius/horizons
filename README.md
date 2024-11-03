@@ -1,5 +1,12 @@
 # React + TypeScript + Vite
 
+install shadcn/ui component:<br>
+`npx shadcn@latest add COMPONENT-NAME`
+https://ui.shadcn.com/docs/components/accordion
+
+implement this:
+https://ui.shadcn.com/docs/components/sidebar
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
