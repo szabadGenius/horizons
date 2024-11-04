@@ -7,6 +7,8 @@ https://ui.shadcn.com/docs/components/accordion
 implement this:
 https://ui.shadcn.com/docs/components/sidebar
 
+https://tailwindcss.com/docs/margin#add-margin-to-a-single-side
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
