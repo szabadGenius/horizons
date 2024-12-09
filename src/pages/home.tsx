@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import {
     DropdownMenu,
     DropdownMenuContent,
@@ -29,4 +29,4 @@ function home() {
     );
 }
 
-export default home
+export default home;

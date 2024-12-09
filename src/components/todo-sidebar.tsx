@@ -32,9 +32,9 @@ const items = [
 
 // https://ui.shadcn.com/docs/components/sidebar
 
-export function AppSidebar() {
+export function ToDoSidebar() {
     return (
-        <Sidebar side="left" collapsible="icon" variant="floating">
+        <Sidebar side="right" collapsible="icon" variant="sidebar">
             <SidebarContent>
                 <SidebarGroup>
                     <SidebarGroupLabel>Horizons</SidebarGroupLabel>
